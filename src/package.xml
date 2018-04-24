@@ -6,6 +6,10 @@
 		<members>CaseServices</members>
 		<members>CaseAfterInsertHandler</members>
 		<members>TaskServices</members>
+		<members>Test_CaseServices</members>
+		<members>Test_TaskServices</members>
+		<members>TestUtility</members>
+		<members>Test_ContactAfterInsertHandler</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
