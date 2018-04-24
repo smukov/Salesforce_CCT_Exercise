@@ -1,0 +1,18 @@
+{
+    "TriggerHandler.cls": {
+        "id": "01p1r00000Azn2GAAR",
+        "name": "TriggerHandler",
+        "createdDate": "2018-04-24T17:50:56.000+0000",
+        "createdById": "0051r0000080a9hAAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051r0000080a9hAAA",
+        "lastModifiedDate": "2018-04-24T17:51:13.000+0000",
+        "fullName": "TriggerHandler",
+        "fileName": "unpackaged/classes/TriggerHandler.cls",
+        "createdByName": "Miroslav Smukov",
+        "lastModifiedByName": "Miroslav Smukov",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    }
+}

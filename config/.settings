@@ -1,0 +1,17 @@
+{
+    "projectName": "PreCog",
+    "username": "smukov@pre-cog.com",
+    "id": "b094f650-47e7-11e8-b65a-c3f6ef288ab7",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://eu12.salesforce.com",
+    "workspace": "F:\\Salesforce\\BS_Full",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
