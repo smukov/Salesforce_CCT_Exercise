@@ -7,7 +7,9 @@ trigger ContactTrigger on Contact (
 	after delete,
 	after undelete) {
 
-		new TriggerHandler()
-        .bind(TriggerHandler.Evt.afterInsert, new ContactAfterInsertHandler())
-        .manage();
+		ContactTriggerHandler handle = new ContactTriggerHandler(trigger.new, trigger.oldMap);
+        if (trigger.isAfter)
+        {
+            if (trigger.isInsert) handle.afterInsert();
+        }
 }

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>TriggerHandler</members>
-		<members>ContactAfterInsertHandler</members>
 		<members>CaseServices</members>
-		<members>CaseAfterInsertHandler</members>
 		<members>TaskServices</members>
 		<members>Test_CaseServices</members>
 		<members>Test_TaskServices</members>
 		<members>TestUtility</members>
-		<members>Test_ContactAfterInsertHandler</members>
+		<members>CaseTriggerHandler</members>
+		<members>ContactTriggerHandler</members>
+		<members>Test_ContactTriggerHandler</members>
 		<name>ApexClass</name>
 	</types>
 	<types>

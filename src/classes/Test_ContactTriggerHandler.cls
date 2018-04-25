@@ -1,5 +1,5 @@
 @isTest
-private class Test_ContactAfterInsertHandler {
+private class Test_ContactTriggerHandler {
 
 	@isTest static void test_generateCasesAndTasksForNewContacts_bulk() {
 		//Arrange
@@ -90,5 +90,4 @@ private class Test_ContactAfterInsertHandler {
 			}
 		}
 	}
-
 }

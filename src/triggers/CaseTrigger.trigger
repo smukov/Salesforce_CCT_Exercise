@@ -7,8 +7,9 @@ trigger CaseTrigger on Case (
     after delete,
     after undelete) {
 
-        new TriggerHandler()
-        .bind(TriggerHandler.Evt.afterInsert, new CaseAfterInsertHandler())
-        .manage();
-
+        CaseTriggerHandler handle = new CaseTriggerHandler(trigger.new, trigger.oldMap);
+        if (trigger.isAfter)
+        {
+            if (trigger.isInsert) handle.afterInsert();
+        }
 }
