@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+    - "7"
+install:
+    - npm install -g jsforce-metadata-tools
+script:
+    - jsforce-deploy --checkOnly -u $SF_USERNAME -p $SF_PASSWORD$SF_SECURITY_TOKEN -D $TRAVIS_BUILD_DIR/src -l $SF_URL --rollbackOnError true --testLevel $SF_TEST_LEVEL --pollTimeout $POLL_TIMEOUT --pollInterval $POLL_INTERVAL --verbose
